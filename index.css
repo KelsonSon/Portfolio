@@ -214,6 +214,37 @@ header{
   opacity: 1;
  
 }
+  /* Estilos contato*/
+
+.container{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contatos{
+  padding: 30px;
+  border-bottom: 2px solid var(--color-tertiary);
+}
+.contatos-lista{
+  display: flex;
+  
+}
+.contatos-lista li{
+  padding: 20px;
+  font-size: 25px;
+  border-left: 2px solid var(--color-tertiary);
+}
+.contatos-lista li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.bx{
+  font-size: 30px;
+  padding: 0px 5px;
+  color: var(--color-secondary);
+}
+
   
   
   /* Estilos para dispositivos móveis */
