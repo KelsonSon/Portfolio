@@ -87,7 +87,7 @@ header{
     margin: 10px;
     max-width: 40vw;
     min-height: 245px;
-    box-shadow: rgba(0, 0, 0, 0.8) -15px -15px 14px 0px;
+    box-shadow: rgba(0, 0, 0, 0.7) -10px -10px 10px 0px;
   }
   
   #sobre p{
@@ -110,7 +110,7 @@ header{
     min-height: 245px;
     border-bottom: 3px solid #ffffff;
     border-right: 3px solid #ffffffaa;
-    box-shadow: rgba(0, 0, 0, 0.8) 15px 15px 14px 0px;
+    box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 10px 0px;
   }
 
   #habilidades ul{
@@ -261,9 +261,14 @@ header{
       
       
       
+      
     }
 
   @media (max-width: 720px) {
+    .sec-projetos a img{
+      opacity: 1;
+      
+    }
     .sec1{
       margin-top: 5vh;
     }
